@@ -61,8 +61,8 @@ for i in range(len(label)):
         ims.append(im)
 
 ani = animation.ArtistAnimation(fig, ims, interval=1, repeat=False)
-
 plt.xlim([-6.0, 8.0])
 plt.ylim([-5.0,10])
-
 plt.show()
+
+ani.save("simple.gif")

@@ -11,3 +11,9 @@
 ### simple_tensorflow.py
 
 TensorFlowを使用して実装
+
+### multi.py
+
+3つ以上の線形分類を実装
+
+![multi.png](https://github.com/KentaKawamata/simpleperceptron/blob/master/Multi.png)

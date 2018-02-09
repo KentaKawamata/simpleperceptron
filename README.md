@@ -1,7 +1,13 @@
-単純パーセプトロンの実装テスト
+# 単純パーセプトロンの実装
 
-ランダムに配置された赤いドットと青いドットを、単純パーセプトロンの学習によって直線をもって隔てるというもの。
+### simpleperceptron.py
 
-学習の過程に応じて変化する直線の角度はアニメーションにより閲覧可能。
+ランダムに配置された赤いドットと青いドットを分類する。
+
+学習に応じて変化する直線はアニメーションにより閲覧可能。
 
 ![animation.gif](https://github.com/KentaKawamata/simpleperceptron/blob/master/simple.gif)
+
+### simple_tensorflow.py
+
+TensorFlowを使用して実装

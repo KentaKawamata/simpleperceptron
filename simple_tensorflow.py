@@ -48,7 +48,7 @@ print('w:', sess.run(w))
 print('b:', sess.run(b))
 
 
-X1 = -X0 * (sess.run(w[0]) / sess.run(w[1])) - sess.run(b)
+X1 = (-X0 * sess.run(w[0]) - sess.run(b)) / sess.run(w[1])
 plt.plot(X0, X1)
 
 plt.xlim([-8.0, 8.0])
